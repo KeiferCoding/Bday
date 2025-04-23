@@ -1,0 +1,46 @@
+<!DOCTYPE Html>
+<html lang="english">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Bday.Css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title> Happy Birthday Broski </Title>
+</head>
+
+<body>
+    <div class="Container">
+        <button class="Btn" type="submit" onclick="popupsopen()"> Happy Birthday Bro </button>
+        <div class="popups" id="popups">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyYpRyiGJEaMMrkFgx7ceTXwFajNtGQBMb8wxG0SWcQN_fcOfzcQ96tOToH9w165vNmC8&usqp=CAU">
+            <h3> HAPPY BIRTHDAY YURINA </h3>
+            <p> • Bro i'm kinda bad at this shi. forgive <br>
+                me if it's shit dawg but i wanna say, HAPPY <br>
+                FUCKIN' BIRTHDAY bro. It's been 4 years <br> we've
+                known eachother frfr time flies by <br> so fast..
+                ik your ife aint easy irl, stay stong <br> dawg.
+                we've been beefing alot these <br> past few months bro i wanna
+                say sorry if i did anythin that like hurt your <br>
+                feelings. and yes we'll play dandy's world later &#x1F60E; </p>
+            <button class="Btn2" type="submit" onclick="openimg ()"> Click Me &#x1F381; </button>
+        </div>
+    </div>
+
+    <div class="gift">
+        <img src="https://media.tenor.com/Xq1RrX1mXyoAAAAj/happy-birthday-birthday-cake.gif" class="img" id="img">
+    </div>
+    <script>
+        let popup = document.getElementById("popups")
+        let img = document.getElementById("img")
+
+        function popupsopen() {
+            popup.classList.add("popupsopen");
+        }
+        function openimg() {
+            img.classList.add("openimg");
+        }
+    </script>
+</body>
+
+</html>
